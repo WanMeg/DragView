@@ -15,6 +15,7 @@
 		960DF7241EF7A10200B37A53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 960DF7221EF7A10200B37A53 /* LaunchScreen.storyboard */; };
 		960DF72F1EF7A10200B37A53 /* DragViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DF72E1EF7A10200B37A53 /* DragViewTests.m */; };
 		960DF73A1EF7A10200B37A53 /* DragViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DF7391EF7A10200B37A53 /* DragViewUITests.m */; };
+		960DF7491EF7A13500B37A53 /* MDragView.m in Sources */ = {isa = PBXBuildFile; fileRef = 960DF7471EF7A13500B37A53 /* MDragView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		960DF7351EF7A10200B37A53 /* DragViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DragViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		960DF7391EF7A10200B37A53 /* DragViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragViewUITests.m; sourceTree = "<group>"; };
 		960DF73B1EF7A10200B37A53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		960DF7471EF7A13500B37A53 /* MDragView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MDragView.m; sourceTree = "<group>"; };
+		960DF7481EF7A13500B37A53 /* MDragView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MDragView.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		960DF7131EF7A10200B37A53 /* DragView */ = {
 			isa = PBXGroup;
 			children = (
+				960DF7481EF7A13500B37A53 /* MDragView.h */,
+				960DF7471EF7A13500B37A53 /* MDragView.m */,
 				960DF7171EF7A10200B37A53 /* AppDelegate.h */,
 				960DF7181EF7A10200B37A53 /* AppDelegate.m */,
 				960DF71A1EF7A10200B37A53 /* ViewController.h */,
@@ -276,6 +281,7 @@
 				960DF71C1EF7A10200B37A53 /* ViewController.m in Sources */,
 				960DF7191EF7A10200B37A53 /* AppDelegate.m in Sources */,
 				960DF7161EF7A10200B37A53 /* main.m in Sources */,
+				960DF7491EF7A13500B37A53 /* MDragView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +513,7 @@
 				960DF7401EF7A10200B37A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960DF7411EF7A10200B37A53 /* Build configuration list for PBXNativeTarget "DragViewTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +522,7 @@
 				960DF7431EF7A10200B37A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		960DF7441EF7A10200B37A53 /* Build configuration list for PBXNativeTarget "DragViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +531,7 @@
 				960DF7461EF7A10200B37A53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
